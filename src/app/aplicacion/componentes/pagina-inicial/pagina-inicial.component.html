@@ -1,0 +1,12 @@
+<div id="contenedorGeneralProductos">
+    <app-navbar></app-navbar>
+    <!-- <button>Ordenar ascendente</button>
+    <button>Ordenar descendente</button> -->
+    <div id="listaProductos">
+        <div id="cartaProducto" *ngFor="let producto of productos">
+            <img src="{{producto.image}}">
+            <a [routerLink]="['/inicio/products/',producto.id]"><h1>{{producto.title}}</h1></a>
+            <p>{{producto.price}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+#contenedorGeneralProductos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: baseline;
+}
+#listaProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#cartaProducto{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px rgb(48, 87, 149);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+img{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
